@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #7CDAEF;
+    font-family: 'Play', sans-serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    line-height: 46px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 37px;
+    padding-top: 36px;
+    padding-bottom: 51px;
+}
+
+.blue {
+    position: relative;
+    width: 900px;
+    background: rgba(14, 73, 126, 0.7);
+    border: 1px solid #000000;
+    margin: 104px auto 0 auto;
+    padding: 99px 79px 0;
+}
+
+.blue>img {
+    width: 118px;
+    height: 121px;
+    padding-right: 10px;
+    margin-bottom: 176px;
+}
+
+.grass {
+    background-image: url(images/grass.png);
+    height: 132px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.could1 {
+    position: absolute;
+    top: 179px;
+    left: -205px;
+    z-index: -1;
+    width: 363px;
+    height: 158px;
+}
+
+.could2 {
+    position: absolute;
+    width: 340px;
+    height: 141px;
+    top: -59px;
+    right: -156px;
+}
+
+.could3 {
+    position: absolute;
+    width: 468px;
+    height: 217px;
+    top: 450px;
+    right: -206px;
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+}
