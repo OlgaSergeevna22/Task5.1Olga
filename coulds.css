@@ -30,7 +30,7 @@ h2 {
 
 .blue {
     position: relative;
-    width: 900px;
+    max-width: 900px;
     background: rgba(14, 73, 126, 0.7);
     border: 1px solid #000000;
     margin: 104px auto 0 auto;
